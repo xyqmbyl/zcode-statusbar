@@ -1,0 +1,8 @@
+# 运行时产物，不进仓库
+*.log
+.daemon.lock
+.daemon.lock.tmp
+
+# 本地调试遗留
+_t/
+node_modules/

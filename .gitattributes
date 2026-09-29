@@ -1,0 +1,9 @@
+# cmd 是 GBK 编码、vbs 是 UTF-16LE：都按字节原样保存，禁止 git 做行尾/编码转换，
+# 否则 cmd.exe / WSH 会把中文行切错。
+*.cmd -text
+*.vbs -text
+*.mjs text eol=lf
+*.js  text eol=lf
+*.md  text
+*.json text
+*.yml text eol=lf
